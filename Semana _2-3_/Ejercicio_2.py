@@ -3,13 +3,13 @@
 #cada año que dure la inversion
 
 inversion=int(input("Ingrese el capital a invertir: "))
-interes=int(input("Ingrese el interes anual: "))
+interes=int(input("Ingrese el interes anual(%): "))
 tiempo=int(input("Ingrese los tiempo(años): "))
 print("")
 
 for i in range(0, tiempo):
-    resultado=(inversion)*(1+interes)**tiempo
+    resultado=(inversion)*(1+interes/100)**tiempo
 
-print("El capital final de tu inversion de: " ,inversion, " en ",tiempo, "año es: " ,resultado)
+print(f"El capital final de tu inversion de {tiempo} años es de: {resultado}")
     
     
