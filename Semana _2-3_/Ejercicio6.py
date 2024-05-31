@@ -5,7 +5,7 @@ y muestre por pantalla el grupo que le corresponde"""
 
 sexo = input("Ingresa tu sexo (masculino/femenino): ").upper()
 nombre = input("Ingresa tu nombre: ")
-if (sexo == "femenino" and nombre[0].lower()<"m") or (sexo =="masculino" and nombre[0].lower()>"n"):
+if (sexo == "FEMENINO" and nombre[0].lower()<"m") or (sexo =="MASCULINO" and nombre[0].lower()>"n"):
     print("Perteneces al grupo A")
 else:
     print("Perteneces al grupo B")
